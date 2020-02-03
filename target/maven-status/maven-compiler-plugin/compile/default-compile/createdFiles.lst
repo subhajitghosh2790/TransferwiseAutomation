@@ -1,0 +1,8 @@
+com\transferwise\qa\pages\CurrencyConverterPage.class
+com\transferwise\qa\pages\HomePage.class
+com\transferwise\qa\Listeners\ExtentManager.class
+com\transferwise\qa\utils\TestUtils.class
+com\transferwise\qa\Listeners\ExtentTestManager.class
+com\transferwise\qa\base\BaseClass.class
+com\transferwise\qa\utils\Dataproviders.class
+com\transferwise\qa\Listeners\TestListener.class

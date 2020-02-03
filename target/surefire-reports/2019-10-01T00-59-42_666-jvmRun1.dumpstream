@@ -1,0 +1,58 @@
+# Created at 2019-10-01T00:59:51.215
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-01T01:00:18.481
+Unexpected IOException with stream: Oct 01, 2019 1:00:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2019-10-01T01:00:19.276
+Unexpected IOException with stream: 2019-10-01 01:00:19 INFO  Transferwise Test Automation:18 - Opening link ---> https://transferwise.com/ie/currency-converter/
+
+
+# Created at 2019-10-01T01:00:30.945
+Unexpected IOException with stream: 2019-10-01 01:00:30 INFO  Transferwise Test Automation:31 - The page header is --> Currency Converter
+
+
+# Created at 2019-10-01T01:00:30.961
+Unexpected IOException: 5,1,com.transferwise.qa.testcases.CurrencyConversionTest,checkCurrencyConversion(com.transferwise.qa.testcases.CurrencyConversionTest),com.transferwise.qa.testcases.CurrencyConversionTest,null,null
+
+
+# Created at 2019-10-01T01:00:30.961
+Unexpected IOException with stream: *** Running test method checkCurrencyConversion...
+
+
+# Created at 2019-10-01T01:00:33.729
+Unexpected IOException with stream: 2019-10-01 01:00:33 INFO  Transferwise Test Automation:32 - Element is clicked
+
+
+# Created at 2019-10-01T01:00:33.791
+Unexpected IOException with stream: 2019-10-01 01:00:33 INFO  Transferwise Test Automation:36 - Input text --->GBP
+
+
+# Created at 2019-10-01T01:00:36.467
+Unexpected IOException with stream: 2019-10-01 01:00:36 INFO  Transferwise Test Automation:32 - Element is clicked
+
+
+# Created at 2019-10-01T01:00:38.634
+Unexpected IOException with stream: 2019-10-01 01:00:38 INFO  Transferwise Test Automation:32 - Element is clicked
+
+
+# Created at 2019-10-01T01:00:38.650
+Unexpected IOException with stream: 2019-10-01 01:00:38 INFO  Transferwise Test Automation:36 - Input text --->INR
+
+
+# Created at 2019-10-01T01:00:41.047
+Unexpected IOException with stream: 2019-10-01 01:00:41 INFO  Transferwise Test Automation:32 - Element is clicked
+
+
+# Created at 2019-10-01T01:00:41.062
+Unexpected IOException with stream: 2019-10-01 01:00:41 INFO  Transferwise Test Automation:36 - Input text --->1000
+
+

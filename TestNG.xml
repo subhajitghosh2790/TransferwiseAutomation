@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Transferwise Test Automation Suite">
+	<listeners>
+		<listener class-name="com.transferwise.qa.Listeners.TestListener" />
+	</listeners>
+	<test name="Transferwise Testcases on Firefox browser">
+		<parameter name="browser" value="ff" />
+		<classes>
+			<class
+				name="com.transferwise.qa.testcases.CurrencyConversionTest"></class>
+		</classes>
+	</test>
+
+	<test name="Transferwise Testcases on Chrome browser">
+	<parameter name="browser" value="chrome" />
+	<classes>
+		<class
+			name="com.transferwise.qa.testcases.CurrencyConversionTest"></class>
+	</classes>
+</test>
+	<test name="Transferwise Testcases on IE broswer">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class
+				name="com.transferwise.qa.testcases.CurrencyConversionTest"></class>
+		</classes>
+	</test>
+
+</suite>

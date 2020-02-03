@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Transferwise Test Automation Suite" duration-ms="656441" started-at="2019-09-30T23:42:55Z" finished-at="2019-09-30T23:53:51Z">
+    <groups>
+    </groups>
+    <test name="Transferwise Testcases on Firefox browser" duration-ms="285562" started-at="2019-09-30T23:42:55Z" finished-at="2019-09-30T23:47:40Z">
+      <class name="com.transferwise.qa.testcases.CurrencyConversionTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="setUp" is-config="true" duration-ms="37354" started-at="2019-09-30T23:42:55Z" description="Initialization of browser and " finished-at="2019-09-30T23:43:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="checkCurrencyConversion" duration-ms="23221" started-at="2019-09-30T23:43:32Z" data-provider="currencies" finished-at="2019-09-30T23:43:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1096" started-at="2019-09-30T23:43:55Z" finished-at="2019-09-30T23:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="setUp" is-config="true" duration-ms="33464" started-at="2019-09-30T23:43:56Z" description="Initialization of browser and " finished-at="2019-09-30T23:44:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="checkCurrencyConversion" duration-ms="21943" started-at="2019-09-30T23:44:30Z" data-provider="currencies" finished-at="2019-09-30T23:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1032" started-at="2019-09-30T23:44:52Z" finished-at="2019-09-30T23:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="setUp" is-config="true" duration-ms="32185" started-at="2019-09-30T23:44:53Z" description="Initialization of browser and " finished-at="2019-09-30T23:45:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="checkCurrencyConversion" duration-ms="23683" started-at="2019-09-30T23:45:25Z" data-provider="currencies" finished-at="2019-09-30T23:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1586" started-at="2019-09-30T23:45:49Z" finished-at="2019-09-30T23:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="setUp" is-config="true" duration-ms="33143" started-at="2019-09-30T23:45:50Z" description="Initialization of browser and " finished-at="2019-09-30T23:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="checkCurrencyConversion" duration-ms="21670" started-at="2019-09-30T23:46:23Z" data-provider="currencies" finished-at="2019-09-30T23:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1157" started-at="2019-09-30T23:46:45Z" finished-at="2019-09-30T23:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="setUp" is-config="true" duration-ms="31063" started-at="2019-09-30T23:46:46Z" description="Initialization of browser and " finished-at="2019-09-30T23:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="checkCurrencyConversion" duration-ms="21637" started-at="2019-09-30T23:47:17Z" data-provider="currencies" finished-at="2019-09-30T23:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="1086" started-at="2019-09-30T23:47:39Z" finished-at="2019-09-30T23:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.transferwise.qa.testcases.CurrencyConversionTest -->
+    </test> <!-- Transferwise Testcases on Firefox browser -->
+    <test name="Transferwise Testcases on Chrome browser" duration-ms="154444" started-at="2019-09-30T23:47:43Z" finished-at="2019-09-30T23:50:17Z">
+      <class name="com.transferwise.qa.testcases.CurrencyConversionTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="14506" started-at="2019-09-30T23:47:43Z" description="Initialization of browser and " finished-at="2019-09-30T23:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="checkCurrencyConversion" duration-ms="17590" started-at="2019-09-30T23:47:57Z" data-provider="currencies" finished-at="2019-09-30T23:48:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="2379" started-at="2019-09-30T23:48:15Z" finished-at="2019-09-30T23:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="13596" started-at="2019-09-30T23:48:17Z" description="Initialization of browser and " finished-at="2019-09-30T23:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="checkCurrencyConversion" duration-ms="17671" started-at="2019-09-30T23:48:31Z" data-provider="currencies" finished-at="2019-09-30T23:48:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1587" started-at="2019-09-30T23:48:48Z" finished-at="2019-09-30T23:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="13445" started-at="2019-09-30T23:48:50Z" description="Initialization of browser and " finished-at="2019-09-30T23:49:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="checkCurrencyConversion" duration-ms="14448" started-at="2019-09-30T23:49:04Z" data-provider="currencies" finished-at="2019-09-30T23:49:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1420" started-at="2019-09-30T23:49:18Z" finished-at="2019-09-30T23:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="11613" started-at="2019-09-30T23:49:19Z" description="Initialization of browser and " finished-at="2019-09-30T23:49:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="checkCurrencyConversion" duration-ms="14819" started-at="2019-09-30T23:49:31Z" data-provider="currencies" finished-at="2019-09-30T23:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1602" started-at="2019-09-30T23:49:46Z" finished-at="2019-09-30T23:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="12402" started-at="2019-09-30T23:49:47Z" description="Initialization of browser and " finished-at="2019-09-30T23:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="checkCurrencyConversion" duration-ms="15870" started-at="2019-09-30T23:50:00Z" data-provider="currencies" finished-at="2019-09-30T23:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1462" started-at="2019-09-30T23:50:16Z" finished-at="2019-09-30T23:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.transferwise.qa.testcases.CurrencyConversionTest -->
+    </test> <!-- Transferwise Testcases on Chrome browser -->
+    <test name="Transferwise Testcases on IE broswer" duration-ms="212915" started-at="2019-09-30T23:50:18Z" finished-at="2019-09-30T23:53:51Z">
+      <class name="com.transferwise.qa.testcases.CurrencyConversionTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="setUp" is-config="true" duration-ms="11055" started-at="2019-09-30T23:50:18Z" description="Initialization of browser and " finished-at="2019-09-30T23:50:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="checkCurrencyConversion" duration-ms="31945" started-at="2019-09-30T23:50:29Z" data-provider="currencies" finished-at="2019-09-30T23:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="tearDown" is-config="true" duration-ms="545" started-at="2019-09-30T23:51:01Z" finished-at="2019-09-30T23:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="setUp" is-config="true" duration-ms="11050" started-at="2019-09-30T23:51:02Z" description="Initialization of browser and " finished-at="2019-09-30T23:51:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="checkCurrencyConversion" duration-ms="31615" started-at="2019-09-30T23:51:13Z" data-provider="currencies" finished-at="2019-09-30T23:51:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="tearDown" is-config="true" duration-ms="578" started-at="2019-09-30T23:51:44Z" finished-at="2019-09-30T23:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="setUp" is-config="true" duration-ms="11840" started-at="2019-09-30T23:51:45Z" description="Initialization of browser and " finished-at="2019-09-30T23:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="checkCurrencyConversion" duration-ms="30046" started-at="2019-09-30T23:51:57Z" data-provider="currencies" finished-at="2019-09-30T23:52:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="tearDown" is-config="true" duration-ms="547" started-at="2019-09-30T23:52:27Z" finished-at="2019-09-30T23:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="setUp" is-config="true" duration-ms="11000" started-at="2019-09-30T23:52:27Z" description="Initialization of browser and " finished-at="2019-09-30T23:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="checkCurrencyConversion" duration-ms="30192" started-at="2019-09-30T23:52:38Z" data-provider="currencies" finished-at="2019-09-30T23:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="tearDown" is-config="true" duration-ms="547" started-at="2019-09-30T23:53:09Z" finished-at="2019-09-30T23:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="setUp" is-config="true" duration-ms="11346" started-at="2019-09-30T23:53:09Z" description="Initialization of browser and " finished-at="2019-09-30T23:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkCurrencyConversion(java.lang.String, java.lang.String)[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="checkCurrencyConversion" duration-ms="30030" started-at="2019-09-30T23:53:20Z" data-provider="currencies" finished-at="2019-09-30T23:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GBP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrencyConversion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.transferwise.qa.testcases.CurrencyConversionTest@685cb137]" name="tearDown" is-config="true" duration-ms="547" started-at="2019-09-30T23:53:50Z" finished-at="2019-09-30T23:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.transferwise.qa.testcases.CurrencyConversionTest -->
+    </test> <!-- Transferwise Testcases on IE broswer -->
+  </suite> <!-- Transferwise Test Automation Suite -->
+</testng-results>
